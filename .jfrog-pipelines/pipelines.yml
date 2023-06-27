@@ -101,7 +101,7 @@ pipelines:
         configuration:
           targetRepository: quickstarts-target-local
           integrations:
-            - name: myArtifactory
+            - name: hshanka_artifactory_integration
           inputResources:
             - name: dbp_build_info
           outputResources:
