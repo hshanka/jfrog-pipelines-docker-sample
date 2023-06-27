@@ -13,7 +13,7 @@ resources:
       registry: hshanka_artifactory_integration                                # <-- replace with your artifactory integration
       sourceRepository: hshanka/jfrogexample               # <-- required if registry is Artifactory
       imageName: hshanka.jfrog.io/hshanka-docker-docker/jfrog-docker-example-image  # < -- replace with your image path and name
-      imageTag: ${{ run_number }}
+      imageTag: latest
       autoPull: true
       
   - name: dbp_build_info
